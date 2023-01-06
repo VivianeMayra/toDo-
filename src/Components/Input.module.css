@@ -1,0 +1,64 @@
+.commentForm{
+    width: 46rem;
+    height: 3.37rem;
+    left: calc(50% - 736px/2);
+    top:11rem;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 0.5rem;
+
+}
+
+.commentForm textarea{
+    width: 40rem;
+    height: 3.37rem;
+    background: var(--gray-500);
+    border:1px solid var(--gray-700);
+    resize: none;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-300);
+    margin-top: 1rem;
+}
+
+.commentForm textarea:focus-visible{
+    color: var(--gray-100);
+    outline: none !important;
+    border: 1px solid var(--purple-100);
+}
+
+.commentForm button[type=submit]{
+    width: 5.62rem;
+    height: 3.25rem;
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border:0;
+    background: var(--blue-100);
+    color: var(--white);
+    cursor: pointer;
+    gap: 0.5rem;
+    transition: background-color 0.1s;
+}
+
+.commentForm button[type=submit]{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    padding: 0 0.5rem;
+
+}
+
+.commentForm button[type=submit]:not(:disabled):hover{
+    background: var(--blue-50);
+}
+
