@@ -28,7 +28,7 @@ body,input,textarea,button{
 }
 
 body{
-    background-color: var(--gray-450);
+    background-color: var(--gray-600);
     color: white;
     -webkit-font-smoothing:antialiased;
 }
